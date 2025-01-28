@@ -2,6 +2,7 @@ from inst import scoring_keys
 
 def calculate_results(user_answers):
     # Подсчитываем количество совпадений для каждого типа
+    # рваопроласроплросла
     scores = {key: 0 for key in scoring_keys}
 
     for q_num, answer in user_answers:
